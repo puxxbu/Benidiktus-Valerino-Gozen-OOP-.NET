@@ -1,53 +1,13 @@
 ﻿using System;
 
-namespace TugasEmoney
+namespace Tugas_Emoney
 {
 
-    public class User
-    {
-        public string nama;
-        public string role;
-        public int eMoney;
 
 
-        public User(string nama, string role, int eMoney)
-        {
-            this.nama = nama;
-            this.role = role;
-            this.eMoney = eMoney;
-        }
-
-    }
 
 
-    public class Admin : User
-    {
-        public Admin(string nama, string role, int eMoney) : base(nama, role, eMoney) { }
-       
-
-        public void tambahUang(int uang, Customer customer)
-        {
-            customer.eMoney += uang;
-
-            Console.WriteLine("Uang berhasil ditambahkan");
-            Console.WriteLine($"{customer.nama} memiliki saldo {customer.eMoney}");
-        }
-    }
-
-
-    public class Customer : User
-    {
-        public Customer(string nama, string role, int eMoney) : base(nama, role, eMoney)
-        {}
-
-
-        public void lihatUang()
-        {
-            Console.WriteLine($"Saldo Anda {this.eMoney}");
-        }
-    }
-
-
+   
     public class main
     {
         static void Main(string[] args)
