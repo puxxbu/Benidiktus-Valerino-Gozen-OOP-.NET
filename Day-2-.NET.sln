@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day-2-.NET", "Day-2-.NET\Day-2-.NET.csproj", "{B545D965-355E-49F5-B95B-8E6D1DB72904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day-2-.NET", "Day-2-.NET\Day-2-.NET.csproj", "{B545D965-355E-49F5-B95B-8E6D1DB72904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object & Class", "Object & Class\Object & Class.csproj", "{52C95A8C-E74F-40C1-8837-DA94583DE4B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object & Class", "Object & Class\Object & Class.csproj", "{52C95A8C-E74F-40C1-8837-DA94583DE4B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class & Object 2", "Class & Object 2\Class & Object 2.csproj", "{AEBD5D41-CBED-4112-811B-08F3EA60278C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class & Object 2", "Class & Object 2\Class & Object 2.csproj", "{AEBD5D41-CBED-4112-811B-08F3EA60278C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{E9CC11EC-655C-4630-8751-CFFEC2976EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{E9CC11EC-655C-4630-8751-CFFEC2976EAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{42AC5722-C4E3-48EC-BF41-ED67121A0AA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{42AC5722-C4E3-48EC-BF41-ED67121A0AA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tugas Emoney", "Tugas Emoney\Tugas Emoney.csproj", "{2E528B36-FF80-4D77-9F73-B1061A07E9AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tugas Emoney", "Tugas Emoney\Tugas Emoney.csproj", "{2E528B36-FF80-4D77-9F73-B1061A07E9AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeertoPeerLanding", "PeertoPeerLanding\PeertoPeerLanding.csproj", "{A3F7EC37-802E-40F4-B878-2CA0CBABA3FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2E528B36-FF80-4D77-9F73-B1061A07E9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E528B36-FF80-4D77-9F73-B1061A07E9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E528B36-FF80-4D77-9F73-B1061A07E9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F7EC37-802E-40F4-B878-2CA0CBABA3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F7EC37-802E-40F4-B878-2CA0CBABA3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F7EC37-802E-40F4-B878-2CA0CBABA3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F7EC37-802E-40F4-B878-2CA0CBABA3FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
